@@ -7,7 +7,7 @@
 
 
 ; copy selection to the tack below
-#HotIf WinActive("ahk_exe Ableton Live")
+#HotIf WinActive("Ableton Live")
 ^\::{
     Send "^x"
     Send "{Down}"
